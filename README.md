@@ -15,7 +15,7 @@
   |olist_order_reviews_dataset.csv|99224/7|review_id|order_id|
   |olist_products_dataset.csv|32951/9|product_id|None|
   |olist_sellers_dataset.csv|3095/4|seller_id|None|
-- **Initial Verification Observations**:
+- **Initial Verification Observations**: No duplicates; minor missing timestamps (~0.3%); all join keys (e.g., order_id) intact. Convert timestamps to datetime for analysis.
 - **Download Instructions**:
   1. Install: `pip install kaggle`
   2. Setup API key (from Kaggle account(.
