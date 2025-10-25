@@ -1,10 +1,12 @@
 # Ecommerce Sales Analysis
 
 ## Data Acquisition
-- **Source**:
-- **License**:
-- **Description**:
+- **Source**: Brazilian E-Commerce Public Dataset by Olist on Kaggle (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+- **License**: ODBL (Open Database License)
+- **Description**: Anonymized data from 2016-2018 Brazilian e-commerce (100k+ orders). 9 CSV files (~130 MB total).
 - **Key Files and Schemas**:
+  | File | Rows/Cols | Key Columns (with Descriptions) |
+  |------|-----------|---------------------------------|
 
 - **Initial Verification Observations**:
 - **Download Instructions**:
