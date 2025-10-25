@@ -5,7 +5,7 @@
 - **License**: ODBL (Open Database License)
 - **Description**: Anonymized data from 2016-2018 Brazilian e-commerce (100k+ orders). 9 CSV files (~130 MB total).
 - **Key Files and Schemas**:
-  | File | Rows/Cols | Primary Keys | Foreign Keys | Unique Columns |
+  | File | Rows/Cols | Primary Key | Foreign Keys | Unique Columns |
   |------|-----------|--------------|--------------|----------------|
   |olist_customers_dataset.csv|99441/5|customer_id|None|customer_unique_id|
 - **Initial Verification Observations**:
