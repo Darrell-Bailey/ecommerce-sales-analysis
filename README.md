@@ -28,3 +28,12 @@
   payments = pd.read_csv('data/olist_order_payments_dataset.csv')
   sales_df = orders.merge(items, on='order_id').merge(payments, on='order_id')
   print(sales_df.head())
+
+
+## Data Cleaning and Preparation
+- Loaded datasets: customers, order, order_items, products.
+- Handled missing values (e.g., timestamps, product details).
+- Converted timestamps to datetime.
+- Merged datasets on appropriate keys.
+- Capped outliers in `price` and `freight_value` using IQR.
+- Saved cleaned dataset to `data/cleaned_ecommerce_data.csv`.
