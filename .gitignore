@@ -14,3 +14,5 @@ __pycache__/
 # Env
 venv/
 .envdata/*.csv
+outputs/*.png
+!outputs/
