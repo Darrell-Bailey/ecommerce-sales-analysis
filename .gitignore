@@ -9,6 +9,7 @@ __pycache__/
 # Data (large files)
 *.csv
 *.xlsx
+!data/cleaned_ecommerce_data.csv
 
 # Env
 venv/
