@@ -37,3 +37,33 @@
 - Merged datasets on appropriate keys.
 - Capped outliers in `price` and `freight_value` using IQR.
 - Saved cleaned dataset to `data/cleaned_ecommerce_data.csv`.
+
+## Exploratory Data Analysis
+
+### 1. Dataset Overview
+- **Time Range**: 2016-09 to 2018-08
+- **Customers**: **96,096 unique**
+- **Key Files**: `orders`, `order_items`, `customers`, `payments`
+
+> **Insight**: 90%+ of customers made **only 1 purchase** → high churn.
+
+---
+
+### 2. Sales Trends (Monthly)
+![Monthly Sales Trend](outputs/sales_trend.png)
+
+- **Peak**: **Nov 2017** (Black Friday) - **R$ 1.2M**
+- **Low**: **Sep 2016** - **R$ 2.5K**
+- **Growth**: **+320%** from first to last month
+
+---
+
+### 3. Customer Segmentation (RFM)
+![RFM Segments](outputs/rfm_clusters.png)
+
+| Segment | Count | % | Recency | Frequency | Monetary |
+|---------|-------|---|---------|-----------|----------|
+| **VIP** | 6804 | 50 | 108 | 1.6 | 276.53 |
+| **Loyal** | 17285 | 25 | 181 | 1.29 | 141.25 |
+| **New/Low-Value** | 23986 | 18 | 161 | 1 | 104.26 |
+| **At-Risk** | 48021 | 7 | 414 | 1.17 | 139.13 |
