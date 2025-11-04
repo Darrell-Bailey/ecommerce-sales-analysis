@@ -67,3 +67,22 @@
 | **Loyal** | 17285 | 25 | 181 | 1.29 | 141.25 |
 | **New/Low-Value** | 23986 | 18 | 161 | 1 | 104.26 |
 | **At-Risk** | 48021 | 7 | 414 | 1.17 | 139.13 |
+
+## Power BI Dashboard
+
+Interactive dashboard with 5 pages: Overview, RFM Customer Segmentation, Sales Trends, Geographic Analysis, Product & Category Insights.
+
+### Key Features
+- **Dynamic Slicers**: Filter by State, Segment, YearMonth.
+- **RFM Visuals**: Scatter plot (Recency vs Monetary, sized by Frequency).
+- **File**: [Ecommerce_Dashboard.pbix](powerbi/Ecommerce_Dashboard.pbix) (open in Power BI Desktop).
+
+### Screenshots
+![Overview](reports/screenshots/overview.png)
+![RFM](reports/screenshots/rfm.png)
+### Usage
+1. Open `.pbix` in Power BI Desktop.
+2. Refresh data (Edit Queries > Refresh Preview).
+3. Publish to Power BI Service for sharing.
+
+> **Insight**: VIP segment (7%) drives 40% revenue – prioritize retention.
